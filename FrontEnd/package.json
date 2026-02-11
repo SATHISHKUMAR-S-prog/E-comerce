@@ -1,0 +1,69 @@
+{
+  "name": "project-react-js-eccomerce",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cloudinary/react": "^1.13.1",
+    "@cloudinary/url-gen": "^1.21.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^6.3.0",
+    "@mui/material": "^6.3.0",
+    "@mui/styled-engine-sc": "^6.3.0",
+    "@mui/x-date-pickers": "^7.23.3",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.122",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@types/react-slick": "^0.23.13",
+    "axios": "^1.7.9",
+    "dayjs": "^1.11.13",
+    "dayjs-plugin-utc": "^0.1.2",
+    "formik": "^2.4.6",
+    "notistack": "^3.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.1.1",
+    "react-slick": "^0.30.3",
+    "redux-thunk": "^3.1.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.13",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.6.1"
+  },
+  "scripts": {
+    "start": "r3f-pack start",
+    "build": "r3f-pack build",
+    "test": "r3f-pack test",
+    "eject": "r3f-pack eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "r3f-pack": "^3.1.0",
+    "tailwindcss": "^3.4.17"
+  }
+}

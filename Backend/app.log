@@ -1,0 +1,134 @@
+2025-04-11T18:03:47.679+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] c.p.E.ProjectEccomerceApplication        : Starting ProjectEccomerceApplication using Java 21.0.4 with PID 15580 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\Project-Eccomerce\target\classes started by User in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\Project-Eccomerce)
+2025-04-11T18:03:47.693+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] c.p.E.ProjectEccomerceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-04-11T18:03:47.777+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11T18:03:47.777+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11T18:03:48.895+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11T18:03:49.071+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 164 ms. Found 18 JPA repository interfaces.
+2025-04-11T18:03:49.947+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-11T18:03:49.962+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-11T18:03:49.963+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-04-11T18:03:50.021+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-11T18:03:50.021+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2243 ms
+2025-04-11T18:03:50.218+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11T18:03:50.324+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-04-11T18:03:50.368+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-11T18:03:50.783+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11T18:03:50.822+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-11T18:03:53.538+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55a3b4de
+2025-04-11T18:03:53.542+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-11T18:03:53.880+05:30  WARN 15580 --- [Project-Eccomerce] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11T18:03:54.226+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11T18:03:56.298+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11T18:04:17.936+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11T18:04:18.982+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11T18:04:21.508+05:30  WARN 15580 --- [Project-Eccomerce] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11T18:04:21.560+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserServiceImpl
+2025-04-11T18:04:21.871+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 55 mappings in 'requestMappingHandlerMapping'
+2025-04-11T18:04:21.952+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] o.s.w.s.c.annotation.WebMvcConfigurer    : Default resource handling disabled
+2025-04-11T18:04:22.015+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtTokenValidation, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-11T18:04:22.158+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-04-11T18:04:22.271+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-04-11T18:04:22.491+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-11T18:04:22.540+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-11T18:04:22.550+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] c.p.E.ProjectEccomerceApplication        : Started ProjectEccomerceApplication in 35.561 seconds (process running for 36.775)
+2025-04-11T18:05:43.735+05:30  INFO 15580 --- [Project-Eccomerce] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 124 class path changes (0 additions, 123 deletions, 1 modification)
+2025-04-11T18:05:43.748+05:30  INFO 15580 --- [Project-Eccomerce] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11T18:05:43.946+05:30  INFO 15580 --- [Project-Eccomerce] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-11T18:05:43.992+05:30  INFO 15580 --- [Project-Eccomerce] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11T18:05:44.001+05:30  INFO 15580 --- [Project-Eccomerce] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-11T18:05:45.420+05:30  INFO 15580 --- [Project-Eccomerce] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-11T18:05:45.760+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] c.p.E.ProjectEccomerceApplication        : Starting ProjectEccomerceApplication using Java 21.0.4 with PID 15580 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\Project-Eccomerce\target\classes started by User in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\Project-Eccomerce)
+2025-04-11T18:05:45.761+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] c.p.E.ProjectEccomerceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-04-11T18:05:46.483+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11T18:05:46.603+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 18 JPA repository interfaces.
+2025-04-11T18:05:46.925+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-11T18:05:46.926+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-11T18:05:46.927+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-04-11T18:05:46.975+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-11T18:05:46.976+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1143 ms
+2025-04-11T18:05:47.094+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11T18:05:47.103+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-11T18:05:47.130+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11T18:05:47.132+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-04-11T18:05:48.449+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@6b8051cb
+2025-04-11T18:05:48.449+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-04-11T18:05:48.761+05:30  WARN 15580 --- [Project-Eccomerce] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11T18:05:49.168+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11T18:05:49.729+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11T18:06:09.853+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11T18:06:10.137+05:30  WARN 15580 --- [Project-Eccomerce] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11T18:06:10.146+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserServiceImpl
+2025-04-11T18:06:10.192+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 55 mappings in 'requestMappingHandlerMapping'
+2025-04-11T18:06:10.227+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] o.s.w.s.c.annotation.WebMvcConfigurer    : Default resource handling disabled
+2025-04-11T18:06:10.246+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtTokenValidation, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-11T18:06:10.271+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-04-11T18:06:10.282+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-04-11T18:06:10.320+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-11T18:06:10.337+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-11T18:06:10.341+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] c.p.E.ProjectEccomerceApplication        : Started ProjectEccomerceApplication in 24.748 seconds (process running for 144.564)
+2025-04-11T18:06:10.676+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-11T18:06:11.777+05:30  INFO 15580 --- [Project-Eccomerce] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 124 class path changes (123 additions, 0 deletions, 1 modification)
+2025-04-11T18:06:11.779+05:30  INFO 15580 --- [Project-Eccomerce] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11T18:06:11.792+05:30  INFO 15580 --- [Project-Eccomerce] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-11T18:06:11.798+05:30  INFO 15580 --- [Project-Eccomerce] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11T18:06:11.798+05:30  INFO 15580 --- [Project-Eccomerce] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-04-11T18:06:13.042+05:30  INFO 15580 --- [Project-Eccomerce] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-04-11T18:06:13.157+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] c.p.E.ProjectEccomerceApplication        : Starting ProjectEccomerceApplication using Java 21.0.4 with PID 15580 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\Project-Eccomerce\target\classes started by User in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\Project-Eccomerce)
+2025-04-11T18:06:13.158+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] c.p.E.ProjectEccomerceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-04-11T18:06:13.417+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11T18:06:13.473+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 18 JPA repository interfaces.
+2025-04-11T18:06:13.605+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-11T18:06:13.606+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-11T18:06:13.606+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-04-11T18:06:13.628+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-11T18:06:13.628+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 467 ms
+2025-04-11T18:06:13.670+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11T18:06:13.673+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-11T18:06:13.684+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11T18:06:13.685+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-04-11T18:06:14.762+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@317f3bee
+2025-04-11T18:06:14.762+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-04-11T18:06:14.983+05:30  WARN 15580 --- [Project-Eccomerce] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11T18:06:15.181+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11T18:06:15.605+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11T18:06:32.585+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11T18:06:32.849+05:30  WARN 15580 --- [Project-Eccomerce] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11T18:06:32.856+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserServiceImpl
+2025-04-11T18:06:32.896+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 55 mappings in 'requestMappingHandlerMapping'
+2025-04-11T18:06:32.926+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] o.s.w.s.c.annotation.WebMvcConfigurer    : Default resource handling disabled
+2025-04-11T18:06:32.941+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtTokenValidation, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-11T18:06:32.966+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-04-11T18:06:32.974+05:30 DEBUG 15580 --- [Project-Eccomerce] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-04-11T18:06:33.001+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-11T18:06:33.015+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-11T18:06:33.019+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] c.p.E.ProjectEccomerceApplication        : Started ProjectEccomerceApplication in 19.902 seconds (process running for 167.242)
+2025-04-11T18:06:33.183+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-11T18:07:35.003+05:30  INFO 15580 --- [Project-Eccomerce] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-11T18:07:35.005+05:30  INFO 15580 --- [Project-Eccomerce] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11T18:07:35.017+05:30  INFO 15580 --- [Project-Eccomerce] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-11T18:07:35.021+05:30  INFO 15580 --- [Project-Eccomerce] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11T18:07:35.022+05:30  INFO 15580 --- [Project-Eccomerce] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-04-11T18:07:36.260+05:30  INFO 15580 --- [Project-Eccomerce] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-04-11T18:07:36.385+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] c.p.E.ProjectEccomerceApplication        : Starting ProjectEccomerceApplication using Java 21.0.4 with PID 15580 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\Project-Eccomerce\target\classes started by User in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\Project-Eccomerce)
+2025-04-11T18:07:36.385+05:30  INFO 15580 --- [Project-Eccomerce] [restartedMain] c.p.E.ProjectEccomerceApplication        : No active profile set, falling back to 1 default profile: "default"
